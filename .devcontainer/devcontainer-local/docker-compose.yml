@@ -7,7 +7,7 @@ services:
     # to avoid running issues. By Default this is very small (64MB)
     container_name: PyMAPDL-Development
     mem_reservation: 8g
-    image: 'ghcr.io/ansys/mapdl:v24.1-ubuntu-student'
+    image: 'ghcr.io/ansys/mapdl:v24.1-ubuntu'
     build:
       dockerfile: Dockerfile
       context: .

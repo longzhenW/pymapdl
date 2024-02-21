@@ -1,4 +1,4 @@
-FROM ghcr.io/ansys/mapdl:v24.1-ubuntu-student
+FROM ghcr.io/ansys/mapdl:v24.1-ubuntu
 
 ENV USERNAME=mapdl
 USER root
